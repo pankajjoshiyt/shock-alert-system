@@ -104,8 +104,7 @@ void sms ()
   display.display();
   delay(1000);
 
-  //sendSMS("+919325242153", "SHOCK ALERT! Voltage spike detected ");
-  sendSMS("+91xxxxxxxxxx","Shok Alert https://maps.google.com/?q=19.900356,74.494850");
+  sendSMS("+91xxxxxxxxxx","Shok Alert https://maps.google.com/?q=19.900356,74.494850");    // change the mobile number for sending the msg
 
   display.clearDisplay();
   display.setCursor(0, 0);
